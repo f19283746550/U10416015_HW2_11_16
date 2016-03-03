@@ -4,8 +4,8 @@ public class RepeatAdditionQuiz {
   public static void main(String[] args) {
     Scanner input=new Scanner(System.in);
     ArrayList<String> nlist=new ArrayList();
-    int n1=(int)(Math.random()*10);
-    int n2=(int)(Math.random()*10);
+    int n1=(int)(Math.random()*10+1);
+    int n2=(int)(Math.random()*10+1);
     System.out.println("What is "+n1+" * "+n2+" ?");
     int ans=input.nextInt();
     int x=0;//判斷某些程式是否有執行(以*表示)
